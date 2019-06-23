@@ -42,6 +42,7 @@ namespace Modbus
         private TextBox txtUnit;
         private StatusStrip statusStrip1;
         private ToolStripStatusLabel toolStripStatusLabel1;
+        private PictureBox pictureBox1;
         private System.ComponentModel.IContainer components;
 
 		public frmStart()
@@ -68,6 +69,7 @@ namespace Modbus
 		/// </summary>
 		private void InitializeComponent()
 		{
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmStart));
             this.grpData = new System.Windows.Forms.GroupBox();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
@@ -94,11 +96,13 @@ namespace Modbus
             this.label2 = new System.Windows.Forms.Label();
             this.txtStartAdress = new System.Windows.Forms.TextBox();
             this.btnReadCoils = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.grpData.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.grpStart.SuspendLayout();
             this.grpExchange.SuspendLayout();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // grpData
@@ -136,6 +140,7 @@ namespace Modbus
             this.grpStart.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.grpStart.BackColor = System.Drawing.Color.Gold;
+            this.grpStart.Controls.Add(this.pictureBox1);
             this.grpStart.Controls.Add(this.label1);
             this.grpStart.Controls.Add(this.btnConnect);
             this.grpStart.Controls.Add(this.txtIP);
@@ -144,11 +149,10 @@ namespace Modbus
             this.grpStart.Size = new System.Drawing.Size(740, 55);
             this.grpStart.TabIndex = 11;
             this.grpStart.TabStop = false;
-            this.grpStart.Text = "Start communication";
             // 
             // label1
             // 
-            this.label1.Location = new System.Drawing.Point(13, 28);
+            this.label1.Location = new System.Drawing.Point(209, 20);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(74, 14);
             this.label1.TabIndex = 7;
@@ -158,9 +162,9 @@ namespace Modbus
             // 
             this.btnConnect.BackColor = System.Drawing.Color.Red;
             this.btnConnect.ForeColor = System.Drawing.Color.White;
-            this.btnConnect.Location = new System.Drawing.Point(187, 21);
+            this.btnConnect.Location = new System.Drawing.Point(625, 8);
             this.btnConnect.Name = "btnConnect";
-            this.btnConnect.Size = new System.Drawing.Size(86, 28);
+            this.btnConnect.Size = new System.Drawing.Size(82, 36);
             this.btnConnect.TabIndex = 6;
             this.btnConnect.Text = "Connect";
             this.btnConnect.UseVisualStyleBackColor = false;
@@ -168,12 +172,13 @@ namespace Modbus
             // 
             // txtIP
             // 
-            this.txtIP.Location = new System.Drawing.Point(93, 25);
+            this.txtIP.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.txtIP.Location = new System.Drawing.Point(286, 9);
             this.txtIP.Name = "txtIP";
-            this.txtIP.Size = new System.Drawing.Size(87, 20);
+            this.txtIP.Size = new System.Drawing.Size(336, 35);
             this.txtIP.TabIndex = 5;
-            this.txtIP.Text = "192.168.110.153";
-            this.txtIP.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtIP.Text = "192.168.1.5";
+            this.txtIP.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // grpExchange
             // 
@@ -365,6 +370,17 @@ namespace Modbus
             this.btnReadCoils.CursorChanged += new System.EventHandler(this.btnReadCoils_Click);
             this.btnReadCoils.Click += new System.EventHandler(this.btnReadCoils_Click);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(16, 1);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(121, 50);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 8;
+            this.pictureBox1.TabStop = false;
+            // 
             // frmStart
             // 
             this.AutoScaleBaseSize = new System.Drawing.Size(5, 13);
@@ -373,6 +389,7 @@ namespace Modbus
             this.Controls.Add(this.grpStart);
             this.Controls.Add(this.grpData);
             this.Name = "frmStart";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Saman Sanat Farzanegan";
             this.Closing += new System.ComponentModel.CancelEventHandler(this.frmStart_Closing);
             this.Load += new System.EventHandler(this.frmStart_Load);
@@ -386,6 +403,7 @@ namespace Modbus
             this.grpExchange.ResumeLayout(false);
             this.grpExchange.PerformLayout();
             this.groupBox1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
 		}

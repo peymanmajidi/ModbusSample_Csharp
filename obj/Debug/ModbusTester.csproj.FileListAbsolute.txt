@@ -27,3 +27,14 @@ X:\_Projects\ModbusSampleCommon\bin\Debug\ModbusTCP.xml
 X:\_Projects\ModbusSampleCommon\obj\Debug\ModbusTester.csprojResolveAssemblyReference.cache
 X:\_Projects\ModbusSampleCommon\obj\Debug\Modbus.frmStart.resources
 X:\_Projects\ModbusSampleCommon\obj\Debug\ModbusTester.csproj.GenerateResource.Cache
+X:\Peyman\Desktop\ModbusSampleCommon\bin\Debug\ModbusTester.exe
+X:\Peyman\Desktop\ModbusSampleCommon\bin\Debug\ModbusTester.pdb
+X:\Peyman\Desktop\ModbusSampleCommon\bin\Debug\ModbusTCP.pdb
+X:\Peyman\Desktop\ModbusSampleCommon\bin\Debug\ModbusTCP.xml
+X:\Peyman\Desktop\ModbusSampleCommon\obj\Debug\ModbusTester.csprojAssemblyReference.cache
+X:\Peyman\Desktop\ModbusSampleCommon\obj\Debug\Modbus.frmStart.resources
+X:\Peyman\Desktop\ModbusSampleCommon\obj\Debug\ModbusTester.csproj.GenerateResource.cache
+X:\Peyman\Desktop\ModbusSampleCommon\obj\Debug\ModbusTester.csproj.CoreCompileInputs.cache
+X:\Peyman\Desktop\ModbusSampleCommon\obj\Debug\ModbusTester.csproj.CopyComplete
+X:\Peyman\Desktop\ModbusSampleCommon\obj\Debug\ModbusTester.exe
+X:\Peyman\Desktop\ModbusSampleCommon\obj\Debug\ModbusTester.pdb
