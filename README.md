@@ -3,8 +3,7 @@
 ## Easily connect to modbus
 It works with Delta, Fateck and Siemens.
 
-Nothing special
+Nothing special, NothingNothingNothing
 
 
-It works like a magic 🚗
 
